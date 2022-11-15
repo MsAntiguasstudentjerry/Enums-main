@@ -60,7 +60,6 @@ let myRide = Vehicle.truck(isFourWheelDrive: true) // 2: Set associated value he
 switch myRide{
     case  let .truck(isFourWheelDrive): // 3: Extract value here
     // 4: Add logic here
-    {
         if isFourWheelDrive{
             print("Let's go to the mountains.")
         }
